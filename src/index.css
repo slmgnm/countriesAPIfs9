@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.img-country {
+  width: 45%;
+  height: 340px;
+}
+
+.box-individual-country {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 55px;
+  width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 6em;
+  margin-top: 4em;
+  background-color: #f0f0f01a;
+  border-style: groove;
+}
+
+.countryName {
+  font-weight: bold !important;
+  font-size: 30px !important;
+}
+
+.info-ul-p {
+  line-height: 27px !important;
+}
+.border-countries {
+  margin-top: 50px;
+  width: 100%;
+}
+.btn-border {
+  margin-right: 5px !important;
+  margin-bottom: 5px !important;
+}
